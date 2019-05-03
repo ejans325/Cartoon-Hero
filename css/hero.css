@@ -1,0 +1,13 @@
+/*			<img src="img/profile.jpg">
+			<h1>Scooby-Doo</h1>
+		</header>*/
+
+header{	
+	background-color: #03c10a;
+	padding: 40px;	
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
