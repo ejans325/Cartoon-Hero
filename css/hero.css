@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'impact_labelregular';
+    src: url('../fonts/impact-label-fontfacekit/web fonts/impactlabel_regular_macroman/Impact_Label-webfont.eot');
+    src: url('../fonts/impact-label-fontfacekit/web fonts/impactlabel_regular_macroman/Impact_Label-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/impact-label-fontfacekit/web fonts/impactlabel_regular_macroman/Impact_Label-webfont.woff2') format('woff2'),
+         url('../fonts/impact-label-fontfacekit/web fonts/impactlabel_regular_macroman/Impact_Label-webfont.woff') format('woff'),
+         url('../fonts/impact-label-fontfacekit/web fonts/impactlabel_regular_macroman/Impact_Label-webfont.ttf') format('truetype'),
+         url('../fonts/impact-label-fontfacekit/web fonts/impactlabel_regular_macroman/Impact_Label-webfont.svg#impact_labelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html, body{
 	font-family: arial, sans-serif;
 	margin: 0;
@@ -11,6 +24,7 @@ header{
 }
 
 h1{
+	font-family: 'impact_labelregular';
 	font-size: 90px;
 	color: #f24e02;
 }
@@ -26,25 +40,42 @@ header img{
 	padding: 0 20px;
 }
 
-img.big-image{
-	max-width: 100%;
+h2{
+	font-family: 'impact_labelregular';
+	font-size: 30px;
+	color: black;
 }
 
-p.caption{
-	font-size: 16px;
-	color: lightgrey;
-	font-style: italic;
-}
-
-ul{
-	list-style: none;
-	padding: 0;
-	margin: 0;
+#friends{
+	margin-left: -70px;
 }
 
 a{
 	color: #42d0f7;
 	text-decoration: none;
+}
+
+img.big-image{
+	max-width: 50%;
+	float: left;
+	margin: 0 50px 0 0;
+}
+
+.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+	clear: left;
+}
+
+#fun {
+	clear: left;
+}
+
+ul{
+	list-style: bullets;
+	box-sizing: border-box;
+	clear: left;
 }
 
 footer{
